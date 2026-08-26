@@ -7,7 +7,7 @@ import { campusLifeImages } from "@/data/site-content";
 
 export function CampusLife() {
   return (
-    <section className="bg-cream-100 py-20 sm:py-28">
+    <section id="campus" className="bg-cream-100 py-20 sm:py-28">
       <div className="container-page">
         <Reveal className="mx-auto max-w-2xl text-center">
           <span className="eyebrow">Campus Life</span>
