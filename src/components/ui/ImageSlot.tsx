@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ImageIcon } from "lucide-react";
+import { withBasePath } from "@/lib/basePath";
 
 type ImageSlotProps = {
   src: string;
@@ -43,7 +44,7 @@ export function ImageSlot({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      src={src}
+      src={withBasePath(src)}
       alt={alt}
       loading="lazy"
       onError={() => setErrored(true)}
