@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
+const basePath = process.env.GITHUB_ACTIONS ? '/mtnpi-website-new' : '';
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'export',
-  basePath: process.env.GITHUB_ACTIONS ? '/mtnpi-website-new' : '',
+  basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   images: {
     unoptimized: true,
     remotePatterns: []
