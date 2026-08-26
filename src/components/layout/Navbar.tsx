@@ -50,7 +50,7 @@ export function Navbar() {
           <motion.img
             whileHover={{ rotate: -6, scale: 1.06 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
-            src="/images/logo/mtnpi-logo.png"
+            src="/images/logo/mtnpi-logo.svg"
             alt="Mother Teresa Nursing & Paramedical Institute logo"
             className="h-10 w-10 object-contain sm:h-11 sm:w-11"
           />
