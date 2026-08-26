@@ -58,20 +58,20 @@ export const about = {
 
 export const directorMessage = {
   eyebrow: "Director's Message",
-  name: "[Director's name to be updated]",
+  name: "Dr. I. B. Khan",
   role: "Director",
   message:
-    "“Our mission is to nurture every student into a confident, compassionate healthcare professional — one who is ready to serve with both skill and heart. At Mother Teresa Nursing & Paramedical Institute, we invest in people, not just curriculum.”",
+    "“Mother Teresa Nursing and Paramedical Institute is a dynamic college that prepares students for the future by providing them with the skills and knowledge they need to succeed in their careers. We believe that education is more than just classes and textbooks — it's an experience that shapes who you are and who you'll become. Our dedicated faculty and staff are committed to helping each student reach their full potential, and our curriculum is designed to challenge and engage them. Our campus is a vibrant hub of innovation, diversity and discovery. Take your next step here.”",
 };
 
 export const missionVision = {
   mission: {
     title: "Our Mission",
-    text: "To provide quality, affordable nursing and paramedical education that produces skilled, ethical and compassionate healthcare professionals ready to serve society.",
+    text: "To empower aspiring healthcare professionals through quality education, hands-on training, and ethical values, enabling them to serve with compassion, competence, and dedication in the field of nursing and paramedical sciences. We aim to contribute to society by preparing skilled individuals who uphold the highest standards of patient care and community well-being.",
   },
   vision: {
     title: "Our Vision",
-    text: "To be a leading institute in Rajasthan for nursing and paramedical education, recognised for academic excellence, clinical competence and care-driven values.",
+    text: "To become a leading center of excellence in nursing and paramedical education in Jaipur and beyond, fostering innovation, research, and holistic development. We envision creating a future-ready healthcare workforce that transforms lives and advances healthcare delivery across India and globally.",
   },
   values: [
     { title: "Compassion", text: "Care for patients and each other with empathy." },
@@ -161,7 +161,7 @@ export const galleryImages: GalleryImage[] = [
 export const achievements = [
   {
     title: "Academic Toppers",
-    text: "Recognising students with outstanding results each academic year. [Names & details to be updated]",
+    text: "Recognising our top-ranking 4th Year students — including Mohit Yadav (82%, 1st Rank), Poonam Maurya (77.42%, 2nd Rank), and Himanshu Dhakad & Khushi Choudhary (77%, 3rd Rank).",
   },
   {
     title: "Clinical Excellence",
@@ -169,13 +169,13 @@ export const achievements = [
   },
   {
     title: "Placement Success",
-    text: "Celebrating alumni placed in hospitals and healthcare institutions after graduation. [Details to be updated]",
+    text: "Celebrating alumni placed across India — at AIIMS Bhopal, AIIMS Delhi, AIIMS Rishikesh and SGPGI, as CHO officers in Rajasthan, UP and Haryana, and via top exam ranks such as Naveen Saini (NORCET AIR-319) and Indra Kumar Jain (GTB Hospital, Delhi).",
   },
 ];
 
 export const contact = {
-  headOffice: "Jaipur, Rajasthan — [Full address to be updated]",
-  campus: "Jaipur, Rajasthan",
+  headOffice: "J-180, Rajiv Gandhi Nagar, Adarsh Nagar, Jaipur",
+  campus: "Himaliya Green City, Phagi Road, Renwal, Jaipur",
   email: "mtnpi@yahoo.com",
-  phones: ["0000000000"],
+  phones: ["9352633511", "9829163952", "8290482282"],
 };
