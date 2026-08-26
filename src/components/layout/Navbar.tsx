@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useScroll, useSpring } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { navLinks } from "@/data/site-content";
+import { withBasePath } from "@/lib/basePath";
 
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -50,7 +51,7 @@ export function Navbar() {
           <motion.img
             whileHover={{ rotate: -6, scale: 1.06 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
-            src="/images/logo/mtnpi-logo.svg"
+            src={withBasePath("/images/logo/mtnpi-logo.svg")}
             alt="Mother Teresa Nursing & Paramedical Institute logo"
             className="h-10 w-10 object-contain sm:h-11 sm:w-11"
           />
