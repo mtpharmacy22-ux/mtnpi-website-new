@@ -1,5 +1,6 @@
 import { MapPin, Mail, Phone } from "lucide-react";
 import { navLinks, contact, brand } from "@/data/site-content";
+import { withBasePath } from "@/lib/basePath";
 
 export function Footer() {
   return (
@@ -9,7 +10,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/images/logo/mtnpi-logo.svg"
+              src={withBasePath("/images/logo/mtnpi-logo.svg")}
               alt={`${brand.name} logo`}
               className="h-10 w-10"
             />
